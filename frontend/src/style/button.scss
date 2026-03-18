@@ -1,0 +1,29 @@
+.button{
+    border: none;
+    outline: none;
+    padding-inline: 1rem;
+    padding-block: .75rem;
+    border-radius: .75rem;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    width: 100%;
+
+    &.primary-button{
+        background-color: #ff0062;
+    }
+
+    &.secondary-button{
+        background-color: #6c757d;
+    }
+
+    &:hover{
+        background-color: #ff0062b1;
+    }
+
+    &:active{
+        transform: scale(0.98);
+    }
+}
