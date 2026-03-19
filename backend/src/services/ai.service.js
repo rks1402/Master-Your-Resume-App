@@ -50,7 +50,7 @@ const ai = new GoogleGenAI({
     apiKey: process.env.GEMINI_API_KEY,
 });
 
-const generateInterviewReport = async (jobDescription, resume, selfDescription) => {
+const generateInterviewReport = async (resume, selfDescription, jobDescription) => {
 
     const prompt = `
     Generate an interview report for a candidate based on the following information:
